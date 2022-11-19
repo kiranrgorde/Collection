@@ -1,16 +1,14 @@
-package linkedhashmap;
+package linkedlistimple;
 
 public class Node
 {
-    int key;
-    String value;
-    Node linkedhashtable;
-    Node hashmapnext;
+    int data;
+    Node next;
     
-    public Node(int key,String value)
+    public Node(int data)
     {
-	this.key=key;
-	this.value=value;
+	this.data=data;
     }
+    
 
 }
